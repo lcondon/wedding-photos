@@ -1,0 +1,26 @@
+input[type='file'] {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+  /* // alternative to pointer-events, compatible with all browsers, just make it impossible to find */
+  width: 1px;
+  height: 1px;
+}
+
+#uploadLabel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.file-field {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#uploadBtn,
+.btn {
+  width: 100%;
+}

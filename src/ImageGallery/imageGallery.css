@@ -1,0 +1,23 @@
+.imageGallery {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  cursor: pointer;
+  max-width: 70%;
+  margin: 5% 2%;
+}
+
+.fa-trash {
+  width: 15px;
+  height: 15px;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+}
